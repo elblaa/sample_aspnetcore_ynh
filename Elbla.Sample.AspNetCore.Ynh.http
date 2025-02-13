@@ -1,0 +1,6 @@
+@Elbla.Sample.AspNetCore.Ynh_HostAddress = http://localhost:5215
+
+GET {{Elbla.Sample.AspNetCore.Ynh_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

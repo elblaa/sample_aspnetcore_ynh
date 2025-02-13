@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elbla.Sample.AspNetCore.Ynh", "Elbla.Sample.AspNetCore.Ynh.csproj", "{EC85B859-FD6E-8D3C-0AFC-ED3F4745DBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC85B859-FD6E-8D3C-0AFC-ED3F4745DBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC85B859-FD6E-8D3C-0AFC-ED3F4745DBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC85B859-FD6E-8D3C-0AFC-ED3F4745DBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC85B859-FD6E-8D3C-0AFC-ED3F4745DBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED3F7D36-904D-4C53-BF3F-AB9A0021508B}
+	EndGlobalSection
+EndGlobal

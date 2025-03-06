@@ -10,7 +10,8 @@ var app = builder.Build();
 
 // This should be used in development environment only
 app.MapOpenApi();
-app.MapScalarApiReference();
+// Issue: OpenApi package does not return forwarded server. See https://github.com/dotnet/aspnetcore/issues/57332
+app.MapScalarApiReference(_ => _.Servers = []);
 
 var summaries = new[]
 {
